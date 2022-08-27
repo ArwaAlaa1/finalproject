@@ -1,0 +1,55 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+*/
+
+.Sec1 {
+    background-color: rgb(27, 26, 26);
+    color: aliceblue;
+    height: auto;
+}
+
+.h-2 {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 5px;
+    margin-top: 15px;
+    font-family: 'Marck Script', cursive;
+    color: aliceblue;
+}
+
+.p-1 {
+    text-align: left;
+    padding: 2px;
+    margin-top: 10px;
+    font-size: 19px;
+    text-align: left;
+    text-size-adjust: 10px;
+}
+
+.btn {
+    padding: 0 15px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    margin: 10px -10px;
+}
+
+.Discount h2 {
+    font-size: 27px;
+    font-weight: bold;
+    font-size: 25px
+}
+
+.Discount p {
+    font-size: 20px;
+    padding-top: 15px
+}
+
+.Promo h2 {
+    font-size: 27px;
+    font-weight: bold;
+    font-size: 25px
+}
+
+.Promo p {
+    font-size: 20px;
+    padding-top: 15px
+}
