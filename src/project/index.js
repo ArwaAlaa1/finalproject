@@ -1,6 +1,5 @@
 
 import React from "react";
-import './menus.js';
 import './style.css';
 
 function Projects() { 
@@ -10,13 +9,13 @@ return(
 <div>
 
 <section class="SUBSCRIBE">
-        <h2>Title Here</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nihil odio, enim ipsa numquam placeat.
+        <h2 >Title Here</h2>
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nihil odio, enim ipsa numquam placeat.
             Velit neque laboriosam dolores soluta numquam nihil voluptatibus ratione dolor, exercitationem non totam,
             doloribus maxime.</p>
         <div class="input">
             <input type="email" placeholder="Your Email"/>
-            <button>SUBSCRIBE</button>
+            <button className="botn1">SUBSCRIBE</button>
         </div>
     </section>
 
@@ -33,7 +32,7 @@ return(
                             the blind texts.</p>
                     </div>
                      <div class="social_media">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-whatsapp"></i></a>
@@ -70,7 +69,7 @@ return(
         </div>
     </footer>
 
-</div>
+</div> 
 )
 }
 

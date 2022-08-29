@@ -83,7 +83,7 @@ const Page2 =()=>{
                         </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
                          {/* ------------button------------ */}
-                        <button class="btn btn-outline-dark"> READ MORE</button>
+                       <button class="btn btn-outline-dark"> READ MORE</button>
                     </div>
                 </div>
             </div>

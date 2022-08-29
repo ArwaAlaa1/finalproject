@@ -1,24 +1,31 @@
-
+body{
+     overflow-x: hidden; 
+}
  
 *{
-    box-sizing: border-box;
+   
+    box-sizing:content-box;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
 
-.photo{
-    margin-left: 75px;
-    width: 300px;
-    height: 300px;
-}
+
 .pizza{
     color: white;
     font-family: 'Sniglet', cursive;
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px;
  
 }
+.Hello{
+  line-height: 30px;
+  text-transform:uppercase;
+    font-size:30px;
+    font-family: 'Sniglet', cursive;
+    padding-bottom: 50px;
+}
+
 .x {
   
     color: aliceblue;
@@ -30,170 +37,119 @@
     width:auto;
     position: relative;
 }
-.w{
+/* .w{
 margin-top:800px;
 text-align: center;
 margin-right:150px ;
 margin-left: 150px;
-}
+} */
 .y {
     position: absolute;
-    margin-left: 50px;
-
-
+   padding-left: 30px;
     width: 380px;
     height: 100px;
 }
 .FOOD{
     font-family: 'Italianno', cursive;
-   font-size:110px;
+   font-size:100px;
    padding-top: 50px;
-
+text-transform: capitalize;
    color: white;
 
 
 }
-
-.PRAGRAPH{
+.sec3{
+    width:30% ;
+    float: left;
+   font-family: 'Sniglet', cursive;
+    font-size: 20px;
+   margin: 15px 15px 25px 15px;
+  
+  }
+  .photo{
+    border-radius: 50%;
+    width: 300px;
+     height: 300px;
+  }
+  .PIZZATYPE{
+    padding:20px 0px;
+    font-size: 50px;
+    font-family: 'Italianno', cursive;
+    font-weight: bold;
+  }
+  .PRAGRAPH{
+    padding: 30px;
     font-family: 'Sniglet', cursive;
    font-size: 20px;
-   padding: 5px;
-
-   color: black;
+   line-height: 30px;
+   width: 100%;
+  }
+  .section-3{
+    overflow: auto;
+    width:100% ;
+   padding:10px;
+   margin:10px;
+  text-align: center;
+ 
+   
 }
-
-
-
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-[class*="col-"] {
-    float: left;
-    /* padding: 15px; */
-}
-
-
-
-/* for tablets */
-@media only screen and (min-width:600px) {
-    .col-s-1 {
-        width: 8.33%;
+@media screen and  (min-width:567px){
+    .section-3 .sec3{
+      width:90%;
     }
-
-    .col-s-2 {
-        width: 16.66%;
+  } 
+  @media screen and (max-width:500px){
+    .section-3 .sec3{
+      width:90%;
     }
-
-    .col-s-3 {
-        width: 25%;
+    
+  }
+  @media screen and (max-width:710px) {
+      
+    .y .FOOD {
+      font-size: 50px;
+      padding:50px 0px 20px 20px ;
+    margin: 30px 0px 10px 30px;
     }
-
-    .col-s-4 {
-        width: 33.33%;
+    .y .Hello{
+      font-size:25px;
+      width:50%;
+      line-height: 20px;
+      padding:40px 0px 20px 20px ;
+    margin: 30px 0px 10px 30px;
     }
-
-    .col-s-5 {
-        width: 41.66%;
+    .y .pizza{
+      width:70%;
+      font-size: 20px;
+     margin:0px 0px 10px 30px;
+     padding:10px 0px 10px 20px;
+      line-height: 25px;
+      
     }
-
-    .col-s-6 {
-        width: 50%;
+   
+    
+  }
+    
+  
+  @media screen and (min-width:768px){
+    .section-3 .sec3{
+      width:100%;
     }
-
-    .col-s-7 {
-        width: 58.33%;
+   
+   }
+  
+  @media screen and (min-width:922px){
+    .section-3 .sec3{
+      width:40%;
     }
-
-    .col-s-8 {
-        width: 66.66%;
-    }
-
-    .col-s-9 {
-        width: 75%;
-    }
-
-    .col-s-10 {
-        width: 83.33%;
-    }
-
-    .col-s-11 {
-        width: 91.66%;
-    }
-
-    .col-s-12 {
-        width: 100%;
-    }
-
-}
-
-/* for desktop */
-@media only screen and (min-width:768px) {
-    .col-1 {
-        width: 8.33%;
-    }
-
-    .col-2 {
-        width: 16.66%;
-    }
-
-    .col-3 {
-        width: 25%;
-    }
-
-    .col-4 {
-        width: 33.33%;
-    }
-
-    .col-5 {
-        width: 41.66%;
-    }
-
-    .col-6 {
-        width: 50%;
-    }
-
-    .col-7 {
-        width: 58.33%;
-    }
-
-    .col-8 {
-        width: 66.66%;
-    }
-
-    .col-9 {
-        width: 75%;
-    }
-
-    .col-10 {
-        width: 83.33%;
-    }
-
-    .col-11 {
-        width: 91.66%;
-    }
-
-    .col-12 {
-        width: 100%;
-    }
-
-}
-
-.PIZZATYPE {
-     font-family: 'Italianno', cursive;
-    font-size: 50px;
-    margin-left:100px;
-    /* padding-right:200px; */
-    padding: 30px;
-}
-
-   .Hello{
-    font-size:50px;
-    font-family: 'Sniglet', cursive;
-    padding-bottom: 50px;
-}
-
+  
+  }
+  
+   @media screen and (min-width:1200px){
+      .section-3 .sec3{
+        width:30%;
+      }
+    
+    } 
+   
 
